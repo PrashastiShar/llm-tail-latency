@@ -1,0 +1,5 @@
+--- BASELINE (Stable Network) ---
+Mean: 0.2655s | p50: 0.2481s | p95: 0.3146s | p99: 0.5042s
+
+--- JITTERY NETWORK (200ms delay, 50ms jitter) ---
+Mean: 1.0553s | p50: 0.8956s | p95: 1.8225s | p99: 1.9788s
