@@ -5,7 +5,7 @@ This project empirically demonstrates how network jitter affects the tail latenc
 ## Key Findings
 *   **Stable Network:** p50 = 0.24s, p99 = 0.50s
 *   **Jittery Network (200ms delay + 50ms jitter):** p50 = 0.89s, p99 = 1.97s
-*   **Conclusion:** Average latency metrics mask severe tail-latency degradation. The p95/p99 latency increases by nearly 6x under simulated edge network conditions, making real-time AI applications feel unresponsive.
+*   **Conclusion:** Average latency metrics mask severe tail-latency degradation. The p99 latency increases by **nearly 4x** under simulated edge network conditions, making real-time AI applications feel unresponsive.
 
 ## Tech Stack
 *   Python, Requests (Groq API)
